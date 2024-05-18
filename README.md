@@ -1,6 +1,6 @@
-#Tipagens do TypeScript em um Mundo Cyberpunk
-
+Tipagens do TypeScript em um Mundo Cyberpunk
 Bem-vindo ao vasto ciberespaço do desenvolvimento web, onde TypeScript emerge como a tecnologia de ponta, aprimorando o JavaScript com tipagens robustas e segurança incrementada. Neste repositório, você encontrará uma introdução às tipagens do TypeScript, essencial para qualquer hacker ou desenvolvedor que deseja sobreviver e prosperar no mundo cyberpunk.
+
 
 Índice
 Capítulo 1: Tipos Primitivos
@@ -92,7 +92,7 @@ interface Usuario {
 let novoUsuario: Usuario = {
   id: 1,
   nome: "Trinity",
-  online: true
+  online: true;
 };
 Tipagem de Funções
 Especifique os tipos das funções para garantir operações seguras.
@@ -137,9 +137,5 @@ Prepare-se, pois a fronteira digital é vasta e cheia de perigos, mas com TypeSc
 Fique conectado, mantenha-se seguro e continue codando. O futuro é agora!
 
 Este projeto foi inspirado no universo cyberpunk e na constante evolução da tecnologia de programação. Se você encontrou este conteúdo útil, sinta-se à vontade para contribuir e melhorar este repositório. Juntos, podemos dominar o ciberespaço.
-
-
-
-
 
 
