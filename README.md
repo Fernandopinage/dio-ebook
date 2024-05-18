@@ -1,6 +1,7 @@
 <div align="center">
   <h1>Tipagens do TypeScript em um Mundo Cyberpunk</h1>
 </div>  
+
 <p></p>Bem-vindo ao vasto ciberespaço do desenvolvimento web, onde TypeScript emerge como a tecnologia de ponta, aprimorando o JavaScript com tipagens robustas e segurança incrementada.</p>
 <p> Neste repositório, você encontrará uma introdução às tipagens do TypeScript, essencial para qualquer hacker ou desenvolvedor que deseja sobreviver e prosperar no mundo cyberpunk.</p>
 
@@ -118,12 +119,12 @@ function hackearSistema(ip: string, porta: number): boolean {
   return true;
 }
 ```
-Capítulo 4: Tipos Condicionais e Utilitários
-Tipos Condicionais
-Realize operações lógicas sobre tipos.
 
-typescript
-Copiar código
+<h2>Capítulo 4: Tipos Condicionais e Utilitários</h2>
+<h3>Tipos Condicionais</h3>
+<p>Realize operações lógicas sobre tipos.</p>
+
+```
 type ÉStringOuNumero<T> = T extends string | number ? true : false;
 
 type Teste1 = ÉStringOuNumero<string>;  // true
@@ -144,13 +145,15 @@ type ConfiguracoesParciais = Partial<Configuracoes>;
 let config: ConfiguracoesParciais = {
   servidor: "localhost"
 };
-Conclusão
-Com o domínio das tipagens do TypeScript, você se torna um mestre no ciberespaço, capaz de criar sistemas robustos e segurar a integridade dos seus dados contra invasões. Em um mundo cyberpunk onde a tecnologia é tanto a arma quanto a armadura, conhecimento é poder e tipagem é segurança.
+```
 
-Prepare-se, pois a fronteira digital é vasta e cheia de perigos, mas com TypeScript, você está pronto para enfrentar qualquer desafio que o futuro cibernético possa trazer.
+<h2>Conclusão</h2><br>
+<p>Com o domínio das tipagens do TypeScript, você se torna um mestre no ciberespaço, capaz de criar sistemas robustos e segurar a integridade dos seus dados contra invasões. Em um mundo cyberpunk onde a tecnologia é tanto a arma quanto a armadura, conhecimento é poder e tipagem é segurança.</p>
 
-Fique conectado, mantenha-se seguro e continue codando. O futuro é agora!
+<p>Prepare-se, pois a fronteira digital é vasta e cheia de perigos, mas com TypeScript, você está pronto para enfrentar qualquer desafio que o futuro cibernético possa trazer.</p>
 
-Este projeto foi inspirado no universo cyberpunk e na constante evolução da tecnologia de programação. Se você encontrou este conteúdo útil, sinta-se à vontade para contribuir e melhorar este repositório. Juntos, podemos dominar o ciberespaço.
+<p>Fique conectado, mantenha-se seguro e continue codando. O futuro é agora!</p>
+
+<p>Este projeto foi inspirado no universo cyberpunk e na constante evolução da tecnologia de programação. Se você encontrou este conteúdo útil, saiba que este ebook foi gerado por uma IA. Sinta-se à vontade para contribuir e melhorar este repositório. Juntos, podemos dominar o ciberespaço.</p>
 
 
