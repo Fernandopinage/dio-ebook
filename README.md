@@ -1,50 +1,57 @@
-Tipagens do TypeScript em um Mundo Cyberpunk
-Bem-vindo ao vasto ciberespaço do desenvolvimento web, onde TypeScript emerge como a tecnologia de ponta, aprimorando o JavaScript com tipagens robustas e segurança incrementada. Neste repositório, você encontrará uma introdução às tipagens do TypeScript, essencial para qualquer hacker ou desenvolvedor que deseja sobreviver e prosperar no mundo cyberpunk.
+<div align="center">
+  <h1>Tipagens do TypeScript em um Mundo Cyberpunk</h1>
+</div>  
+<p></p>Bem-vindo ao vasto ciberespaço do desenvolvimento web, onde TypeScript emerge como a tecnologia de ponta, aprimorando o JavaScript com tipagens robustas e segurança incrementada.</p>
+<p> Neste repositório, você encontrará uma introdução às tipagens do TypeScript, essencial para qualquer hacker ou desenvolvedor que deseja sobreviver e prosperar no mundo cyberpunk.</p>
 
 
-Índice
-Capítulo 1: Tipos Primitivos
-Capítulo 2: Tipos Avançados
-Capítulo 3: Tipagens Avançadas e Inferência
-Capítulo 4: Tipos Condicionais e Utilitários
-Conclusão
-Capítulo 1: Tipos Primitivos
-Número (Number)
-Os números em TypeScript são vitais para cálculos precisos e estimativas críticas.
+<h2>Índice</h2>
+<b>Capítulo 1: Tipos Primitivos</b></br>
+<b>Capítulo 2: Tipos Avançados</b></br>
+<b>Capítulo 3: Tipagens Avançadas e Inferência</b></br>
+<b>Capítulo 4: Tipos Condicionais e Utilitários</b></br>
+<b>Conclusão</b>
+</br></br>
+<h2>Capítulo 1: Tipos Primitivos</h2></br>
+<h3>Número (Number)</h3>
+<p>Os números em TypeScript são vitais para cálculos precisos e estimativas críticas.</p>
 
-typescript
-Copiar código
+```
 let energia: number = 100;
-String
-Strings representam comandos, mensagens codificadas ou identidades cibernéticas.
+```
+<h3>String</h3></br>
+<p>Strings representam comandos, mensagens codificadas ou identidades cibernéticas.</p>
 
-typescript
-Copiar código
+```
 let nomeHacker: string = "Neo";
-Boolean
-Decisões binárias que conduzem cada ação no ciberespaço.
+```
 
-typescript
-Copiar código
+<h3>Boolean</h3>
+<p>Decisões binárias que conduzem cada ação no ciberespaço.</p>
+
+```
 let firewallAtivo: boolean = true;
-Capítulo 2: Tipos Avançados
-Array
-Um conjunto ordenado de dados, ideal para listas e inventários.
+```
 
-typescript
-Copiar código
+<h2>Capítulo 2: Tipos Avançados</h2>
+<h3>Array</h3>
+<p>Um conjunto ordenado de dados, ideal para listas e inventários.</p>
+
+```
 let codigosDeAcesso: number[] = [1234, 5678, 9012];
-Tuple
-Estruturas de dados com um número fixo de elementos de tipos específicos.
+```
 
-typescript
-Copiar código
+<h3>Tuple<h3>
+<p>Estruturas de dados com um número fixo de elementos de tipos específicos.</p>
+
+ ```
 let coordenadas: [number, number, number] = [45.76, -73.56, 300];
-Enum
-Enumerações para representar um conjunto fixo de valores.
+```
 
-typescript
-Copiar código
+<h3>Enum</h3>
+<p>Enumerações para representar um conjunto fixo de valores.</p>
+
+```
 enum NivelAlerta {
   Baixo,
   Medio,
@@ -52,35 +59,41 @@ enum NivelAlerta {
   Critico
 }
 let alertaAtual: NivelAlerta = NivelAlerta.Critico;
-Any
-O tipo que tudo abrange, usado com cautela.
+```
 
-typescript
-Copiar código
+<h3>Any</h3>
+<p>O tipo que tudo abrange, usado com cautela.</p>
+
+```
 let dadoFlexivel: any = "Dados Encriptados";
 dadoFlexivel = 42;
-Capítulo 3: Tipagens Avançadas e Inferência
-Union Types
-Permite que uma variável possa ser de mais de um tipo.
+```
 
-typescript
-Copiar código
+<h2>Capítulo 3: Tipagens Avançadas e Inferência</h2>
+<h3>Union Types</h3>
+<p>Permite que uma variável possa ser de mais de um tipo.</p>
+
+```
 let idUsuario: number | string;
 idUsuario = 404;
 idUsuario = "USUARIO404";
-Type Aliases
-Crie novos tipos baseados em combinações existentes.
+```
 
-typescript
-Copiar código
+<h3>Type Aliases</h3>
+<p>Crie novos tipos baseados em combinações existentes.</p>
+
+```
 type CodigoHex = string;
 type RespostaAPI = string | object;
 
 let corNeon: CodigoHex = "#00FF00";
 let resposta: RespostaAPI = { sucesso: true };
-Interfaces
-Defina contratos precisos para objetos.
+```
 
+<h3>Interfaces</h3>
+<p>Defina contratos precisos para objetos.</p>
+
+```
 typescript
 Copiar código
 interface Usuario {
@@ -94,15 +107,17 @@ let novoUsuario: Usuario = {
   nome: "Trinity",
   online: true;
 };
-Tipagem de Funções
-Especifique os tipos das funções para garantir operações seguras.
+```
 
-typescript
-Copiar código
+<h3>Tipagem de Funções</h3>
+<p>Especifique os tipos das funções para garantir operações seguras.</p>
+
+```
 function hackearSistema(ip: string, porta: number): boolean {
   // Implementação fictícia do hack
   return true;
 }
+```
 Capítulo 4: Tipos Condicionais e Utilitários
 Tipos Condicionais
 Realize operações lógicas sobre tipos.
