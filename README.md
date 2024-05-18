@@ -1,3 +1,9 @@
+<p align="center">
+  <img 
+    src="./img/_af8c4b62-3ec8-4384-b955-bd5ae151af51.jpg"
+    width="400"  
+  />
+</p>
 <div align="center">
   <h1>Tipagens do TypeScript em um Mundo Cyberpunk</h1>
 </div>  
